@@ -20,5 +20,7 @@ async function lufyGears() {
         console.log("No se puede mostrar la informacion de la API", error)
     }
 }
-
 lufyGears()
+
+
+let searchData = []
