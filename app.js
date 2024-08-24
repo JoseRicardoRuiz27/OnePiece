@@ -5,8 +5,11 @@ async function lufyGears() {
 
         data.forEach(gear => {
             const gearElement = document.createElement(`div`)
+            gearElement.classList.add('gear-card')
             const nameElement = document.createElement(`h2`)
+            nameElement.classList.add('gear-name')
             const descriptionElement = document.createElement(`p`)
+            nameElement.classList.add('gear-description')
 
             nameElement.textContent = `Name ${gear.name}`
             descriptionElement.textContent = `Description ${gear.description}`
