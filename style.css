@@ -16,7 +16,13 @@ header{
     }
 }
 
+#loading {
+    font-size: 18px;
+    color: #1e90ff;
+}
+
 #gears{
+    display: none;
     div{
     justify-content: center;
     align-items: center;
