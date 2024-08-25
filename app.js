@@ -29,9 +29,7 @@ async function fetchLuffyGears() {
     try {
         const res = await fetch("https://api.api-onepiece.com/v2/luffy-gears/en")
         const data = await res.json()
-        setTimeout(() => {
-            lufyGears(data)
-        }, 1000);
+        lufyGears(data)
     } catch (error) {
         console.log('Error en la API', error)
     }
