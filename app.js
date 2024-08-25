@@ -10,7 +10,7 @@ function lufyGears(gears) {
             nameElement.classList.add('gear-name')
 
             const descriptionElement = document.createElement(`p`)
-            nameElement.classList.add('gear-description')
+            descriptionElement.classList.add('gear-description')
 
             nameElement.textContent = `Name ${gear.name}`
             descriptionElement.textContent = `Description ${gear.description}`
