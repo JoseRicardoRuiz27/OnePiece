@@ -8,6 +8,9 @@ header{
     display:flex;
     justify-content:space-between;
     margin: 0 20px;
+    .logo{
+        width: 75px;
+    }
     input{
         width: 500px;
         height: 50px;
@@ -18,12 +21,13 @@ header{
 }
 
 #loading {
-    font-size: 28px;
-    font-weight: 500;
-    height: 50svh;
-    display: flex;
-    justify-content: center;
+    height: 75svh;
+    display:flex;
+    justify-content:center;
     align-items: center;
+    img{
+        width: 600px;
+    }
 }
 
 #gears{
@@ -50,4 +54,12 @@ header{
         display: flex;
         justify-content: center;
     }
+}
+
+#fetch-button{
+    padding: 29px;
+    margin: 20px 60px;
+    color: white;
+    font-size: 22px;
+    background: blue;
 }

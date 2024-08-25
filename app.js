@@ -22,6 +22,7 @@ function lufyGears(gears) {
         });
         document.getElementById(`loading`).style.display = `none`
         gearContainer.style.display = `block`;
+        document.getElementById('fetch-button').style.display = 'none';
 }
 
 async function fetchLuffyGears() {
@@ -35,4 +36,5 @@ async function fetchLuffyGears() {
         console.log('Error en la API', error)
     }
 }
-fetchLuffyGears()
+
+document.getElementById('fetch-button').addEventListener('click', fetchLuffyGears);
