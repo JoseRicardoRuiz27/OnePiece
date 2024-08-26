@@ -2,6 +2,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
+    background: linear-gradient(#4a4af0, #fff);
 }
 
 header{
@@ -37,8 +38,6 @@ header{
     align-items: center;
     width: 800px;
     margin: 100px 210px 0;
-    border: 2px solid;
-    border-radius: 28px;
     }
     h2{
         font-size: 28px;
@@ -68,10 +67,16 @@ header{
         background: whitesmoke;
         border: 1px solid;
         cursor: pointer;
+        border: 2px solid;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease-in-out;
         img{
             display: flex;
             margin-left: 20px;
             width: 10pc;
         }
-    }    
+    }
+    button:hover{
+        transform: scale(1.1);
+    }
 }
