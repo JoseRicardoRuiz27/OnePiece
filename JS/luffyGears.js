@@ -22,7 +22,7 @@ function luffyGears(gears) {
 }
 
 export async function fetchLuffyGears() {
-    document.getElementById('fetch-button').style.display = 'none';
+    document.getElementById('gear-button').style.display = 'none';
     document.getElementById('loading').style.display = 'block';
     document.getElementById('gears').style.display = 'none';
     try {
